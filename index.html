@@ -1202,20 +1202,20 @@
                 <div class="btn-global-wrapper">
                     <button class="btn-global" id="randomizeAllBtn">
                         <svg class="icon" viewBox="0 0 24 24"><polyline points="16 3 21 3 21 8"></polyline><line x1="4" y1="20" x2="21" y2="3"></line><polyline points="21 16 21 21 16 21"></polyline><line x1="15" y1="15" x2="21" y2="21"></line><line x1="4" y1="4" x2="9" y2="9"></line></svg> 
-                        randomize all
+                        randomize all traits
                     </button>
                 </div>
                 <div class="btn-global-wrapper">
                     <button class="btn-global btn-copy" id="copyAllBtn">
                         <svg class="icon" viewBox="0 0 24 24"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
-                        copy all
+                        copy all to clipboard
                     </button>
                 </div>
                 <div class="btn-global-wrapper">
                     <button class="btn-global" id="dailyChallengeBtn">
-                        <svg class="icon" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
-                        daily challenge
-                    </button>
+    <svg class="icon" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+    <span id="dailyBtnText">daily set</span>
+</button>
                 </div>
             </div>
 
@@ -1289,7 +1289,7 @@
                             <p class="about-p">created by me, nibylis, this project started on july 21, 2026 and was inspired by <a href="https://tuimiz.carrd.co/" target="_blank" class="source-link">tuimiz</a>. it officially launched on august 12, 2026. all reference photos are sourced from <a href="https://commons.wikimedia.org/" target="_blank" class="source-link">wikimedia commons</a>, with full author and license details clearly listed under the zoomed-in images.</p>
                             
                             <h3 class="about-h3">join the community</h3>
-                            <p class="about-p">join the official creaturizer <a href="discord.gg/soon" target="_blank" class="source-link">discord</a> server. it is a space built for artists to post daily challenges, share regular creature designs, exchange advice, or simply hang out. the server is also the best place to help improve the site and give feedback. you can suggest new features and animals, report bugs and mistakes (such as missing animals, misspelled names, or incorrect tags), or contact me directly regarding any technical issues or questions.</p>
+                            <p class="about-p">join the official creaturizer <a href="discord.gg/soon" target="_blank" class="source-link">discord</a> server. it is a space built for artists to post daily sets, share regular creature designs, exchange advice, or simply hang out. the server is also the best place to help improve the site and give feedback. you can suggest new features and animals, report bugs and mistakes (such as missing animals, misspelled names, or incorrect tags), or contact me directly regarding any technical issues or questions.</p>
                             
                             <h3 class="about-h3">support the project</h3>
                             <p class="about-p">creaturizer is a passion project and will always remain completely free to use. however, if you find this tool helpful, please consider leaving a tip on <a href="https://ko-fi.com/nibylis" target="_blank" class="source-link">ko-fi</a>. it is especially appreciated if you use it for commercial projects, such as developing games or creating commissioned art. your support directly rewards the hours spent building this site and motivates me to keep the project alive and growing.</p>
@@ -1339,8 +1339,8 @@
                             <h3 class="about-h3">filters & blur mode</h3>
                             <p class="about-p">control your drawing pool by combining <span id="featCountTags">Y</span> unique tags to generate specific animal groups (you must keep at least one tag active per category). this lets you adjust the results to perfectly fit specific biomes or themes. the built-in blur mode hides all visual references until clicked, designed for users with specific animal phobias or those who prefer to design purely from imagination.</p>
                             
-                            <h3 class="about-h3">daily challenge</h3>
-                            <p class="about-p">a global, daily prompt that resets every 24 hours at midnight in your local time zone. the system randomly selects a set of filters and locks in one exact randomized set for everyone. share your art with the community to see how other artists interpret the exact same concept!</p>
+                            <h3 class="about-h3">daily set</h3>
+                            <p class="about-p">a global, daily challegne that resets every 24 hours at midnight in your local time zone. the system randomly selects a set of filters and locks in one exact randomized prompt for everyone. share your art with the community to see how other artists interpret the exact same concept!</p>
                             
                             <h3 class="about-h3">animal list</h3>
                             <p class="about-p">a dedicated database where you can browse every animal currently in the pool, listed alphabetically. view their photos and assigned tags, search for specific species, or narrow down the list using the exact same filters from the generator.</p>
@@ -1358,7 +1358,7 @@
                             <p class="about-p">creaturizer operates entirely within your browser and does not actively collect, store, track, or share any personal data or use tracking cookies. however, please note that as part of standard web hosting operations, the hosting provider <a href="https://docs.github.com/en/site-policy/github-terms/github-terms-of-service" target="_blank" class="source-link">github pages</a> may automatically collect basic server access logs (such as ip addresses) strictly for security and maintenance purposes. additionally, the site uses <a href="https://www.cloudflare.com/web-analytics/" target="_blank" class="source-link">cloudflare</a> to gather basic, anonymized website statistics. this data is used solely to monitor site performance and understand general usage patterns, which helps me continuously develop and improve the project. cloudflare's analytics do not track individual users across the web or collect sensitive personal information.</p>
                             
                             <h3 class="about-h3">local processing</h3>
-                            <p class="about-p">the daily challenge feature uses your device's local system time to reset at midnight. this process happens entirely within your own browser. creaturizer does not collect, store, or transmit your time zone, location, or any other personal data to external servers.</p>
+                            <p class="about-p">the daily set feature uses your device's local system time to reset at midnight. this process happens entirely within your own browser. creaturizer does not collect, store, or transmit your time zone, location, or any other personal data to external servers.</p>
                             
                             <h3 class="about-h3">external links</h3>
                             <p class="about-p">the site contains links to third-party platforms (such as image authors' websites, <a href="https://commons.wikimedia.org/wiki/Commons:Licensing" target="_blank" class="source-link">wikimedia commons</a>, <a href="https://discord.com/terms" target="_blank" class="source-link">discord</a>, <a href="https://more.ko-fi.com/terms" target="_blank" class="source-link">ko-fi</a>, etc.). I do not control these external sites and am not responsible for their content, privacy policies, or practices.</p>
@@ -1491,7 +1491,7 @@
                 <p style="margin-bottom: 6px;">· initial release of creaturizer, featuring an initial pool of 509 animal species spanning mostly from letters a to c.</p>
                 <p style="margin-bottom: 6px;">· implemented core generator featuring 13 anatomical trait categories with single-re-rolls.</p>
                 <p style="margin-bottom: 6px;">· integrated tag-based filtering with 33 unique tags organized across 5 main groups : class, lifestyle, environment, diet, era.</p>
-                <p style="margin-bottom: 6px;">· introduced daily challenge mode with synchronized global prompts based on randomized active filters.</p>
+                <p style="margin-bottom: 6px;">· introduced daily set with synchronized global prompts based on randomized active filters.</p>
                 <p style="margin-bottom: 6px;">· added utility tools: single-trait randomize, part locking, single-name copy, full-set copy, and full-screen image view.</p>
                 <p style="margin-bottom: 6px;">· integrated reference photos with zoom modal, author credits, licensing details and source.</p>
                 <p style="margin-bottom: 6px;">· added animal list database with live search, tag inspection, name copying, and image zoom.</p>
@@ -2778,7 +2778,7 @@ Yacare Caiman,reptile,semi-aquatic,"swamp, freshwater, jungle","carnivore, pisci
         });
 
         // =========================================
-        // GLOBALNE PRZYCISKI I DAILY CHALLENGE
+        // GLOBALNE PRZYCISKI I DAILY SET
         // =========================================
         const randomizeAllBtn = document.getElementById('randomizeAllBtn');
         randomizeAllBtn.addEventListener('click', function() {
@@ -2833,7 +2833,29 @@ Yacare Caiman,reptile,semi-aquatic,"swamp, freshwater, jungle","carnivore, pisci
             });
         });
 
-        const dailyChallengeBtn = document.getElementById('dailyChallengeBtn');
+        // =========================================
+        // ZEGAR DAILY SET NA PRZYCISKU
+        // =========================================
+        function updateDailyTimer() {
+            const now = new Date();
+            const nextMidnight = new Date();
+            nextMidnight.setHours(24, 0, 0, 0); 
+            const diffMs = nextMidnight - now;
+            const diffHrs = Math.floor(diffMs / (1000 * 60 * 60)).toString().padStart(2, '0');
+            const diffMins = Math.floor((diffMs % (1000 * 60 * 60)) / (1000 * 60)).toString().padStart(2, '0');
+            
+            const btnText = document.getElementById('dailyBtnText');
+            if (btnText) {
+                // Ustawia tekst w formacie
+                btnText.innerText = `daily set · ${diffHrs}h ${diffMins}m`;
+            }
+        }
+        
+        // Uruchamia zegar od razu po załadowaniu strony
+        updateDailyTimer();
+        // Odświeża zegar automatycznie co 60 sekund (60000 milisekund)
+        setInterval(updateDailyTimer, 60000);
+const dailyChallengeBtn = document.getElementById('dailyChallengeBtn');
         dailyChallengeBtn.addEventListener('click', function() {
             this.classList.add('clicked');
             setTimeout(() => this.classList.remove('clicked'), 200);
@@ -2855,7 +2877,8 @@ Yacare Caiman,reptile,semi-aquatic,"swamp, freshwater, jungle","carnivore, pisci
             let dailyPool = [];
 
             if (isWildcardDay) {
-                console.log(`[Daily Challenge] daily challenge: all animals (no filters)`);
+                // POKAZUJEMY W TOAŚCIE INFORMACJĘ O BRAKU FILTRÓW
+                showToast(`all animals (no filters)`);
                 dailyPool = [...animalDatabase]; 
             } else {
                 const numThemeAnimals = Math.floor(rng() * 10) + 1; 
@@ -2892,19 +2915,15 @@ Yacare Caiman,reptile,semi-aquatic,"swamp, freshwater, jungle","carnivore, pisci
                 const finalNumTags = Math.min(numTags, combinedTraits.length);
                 const dailyTags = combinedTraits.slice(0, finalNumTags);
                 
-                console.log(`[Daily Challenge] daily challenge (at least one of the filters): ${dailyTags.join(' or ')}`);
+                // POKAZUJEMY WYLOSOWANE TAGI W TOAŚCIE
+                showToast(dailyTags.join(' • '));
 
                 dailyPool = animalDatabase.filter(a => {
                     return dailyTags.some(t => a.allTags.includes(t));
                 });
             }
 
-            const nextMidnight = new Date();
-            nextMidnight.setHours(24, 0, 0, 0); 
-            const diffMs = nextMidnight - now;
-            const diffHrs = Math.floor(diffMs / (1000 * 60 * 60)).toString().padStart(2, '0');
-            const diffMins = Math.floor((diffMs % (1000 * 60 * 60)) / (1000 * 60)).toString().padStart(2, '0');
-            showToast(`next in ${diffHrs}h ${diffMins}m`);
+
 
             const poolToUse = dailyPool.length > 0 ? dailyPool : animalDatabase; 
 
@@ -2992,9 +3011,26 @@ Yacare Caiman,reptile,semi-aquatic,"swamp, freshwater, jungle","carnivore, pisci
                     blurHint.style.display = isBlurMode ? 'block' : 'none';
                 }
                 
-                // Odśwież widoki, żeby zaktualizować obrazy natychmiast
-                if (!viewList.classList.contains('hidden')) {
-                    renderAnimalList();
+                if (document.getElementById('animalListView') && !document.getElementById('animalListView').classList.contains('hidden')) {
+                    const listImages = document.querySelectorAll('.animal-list-container img');
+                    listImages.forEach(img => {
+                        if (isBlurMode) {
+                            img.classList.add('blurred-image');
+                            img.classList.remove('revealed'); 
+                        } else {
+                            // Krok 1: Dodajemy klasę "revealed", która zdejmuje rozmycie płynną animacją
+                            img.classList.add('revealed');
+                            
+                            // Krok 2: Po zakończeniu animacji (300ms) całkowicie usuwamy klasy
+                            setTimeout(() => {
+                                // Sprawdzamy, czy w międzyczasie nie włączono blura z powrotem
+                                if (!isBlurMode) { 
+                                    img.classList.remove('blurred-image');
+                                    img.classList.remove('revealed');
+                                }
+                            }, 300);
+                        }
+                    });
                 }
                 
                 cards.forEach(card => {
@@ -3004,6 +3040,7 @@ Yacare Caiman,reptile,semi-aquatic,"swamp, freshwater, jungle","carnivore, pisci
                 showToast(isBlurMode ? 'blur mode on' : 'blur mode off');
             });
         }
+                
 
         // =========================================
         // DYNAMICZNE LICZNIKI (CORE FEATURES)
