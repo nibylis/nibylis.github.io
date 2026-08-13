@@ -4,12 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>creaturizer - creature concepts randomizer</title>
-    <meta name="google-site-verification" content="BJLUk0HdEHhXOVVhoDetKEP-hOrv6lsWgxZgBdR14Qc" />
     <!-- Import Montserrat i Corben z Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Corben:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Corben:wght@400;700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
     <!-- FAVICON (Ikonka w zakładce przeglądarki) -->
-    <link rel="icon" type="image/png" href="icon.png?v=2">
+    <link rel="icon" type="image/png" href="icon.png">
 
     <!-- PODSTAWOWY OPIS STRONY -->
     <meta name="description" content="infinite creature concepts randomizer made by nibylis">
@@ -1150,6 +1154,31 @@
             }
 
             .discord-link { order: 5; margin: 30px 0 50px 0; width: 100%; }
+
+               /* =========================================
+               MOBILNE TOASTY (WYGLĄD JAK TOOLTIPY)
+               ========================================= */
+            .notification-toast {
+                /* 1. Przyklejenie do prawego dolnego rogu */
+                position: fixed !important;
+                bottom: 20px !important;
+                right: 20px !important;
+                left: auto !important;
+                transform: none !important;
+                
+                /* 2. Wygląd wyciągnięty z Twoich tooltipów */
+                background-color: var(--beige) !important;
+                color: var(--green) !important;
+                border: 3px solid var(--green) !important;
+                border-radius: 6px !important;
+                padding: 2px 10px !important;
+                font-size: 14px !important;
+                font-weight: 500 !important;
+                
+                /* 3. Zawsze nad resztą strony */
+                z-index: 9999 !important;
+                white-space: nowrap !important;
+            }
         }
     </style>
 </head>
